@@ -1,0 +1,46 @@
+a {color: hotpink}
+a:hover {
+    color: orange;
+    border-bottom: 1px double;
+}
+body {
+    background-color: rgba(58, 176, 255, 0.336);
+    max-width: fit-content;
+    outline-style: dotted;
+    outline-color: antiquewhite;
+    outline-offset: 1cap;
+}
+#container {
+    width: 60%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+#container div {
+    background-color:rgb(71, 158, 71);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 30px;
+}
+html {
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    display: table;
+    margin: auto;
+}
+textarea {
+    vertical-align: top;
+}
+form {
+    display: ruby-base-container;
+    padding: 1em;
+    border: 3px solid #808080;
+    border-radius: 1em;
+  }
