@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Name from './components/Name'
+import Name from './components/Person'
 
 const App = () => {
   const [persons, setPersons] = useState([]) 
